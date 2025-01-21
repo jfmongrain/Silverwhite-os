@@ -23,7 +23,10 @@ modules:
       - https://copr.fedorainfracloud.org/coprs/lilay/topgrade/repo/fedora-%OS_VERSION%/lilay-topgrade-fedora-%OS_VERSION%.repo
       
     install:
-    rpm-ostree install \
+      - https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
+      - https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+      - rpmfusion-free-release
+      - rpmfusion-nonfree-release
       - distrobox
       - ffmpegthumbnailer
       - openssl
@@ -42,7 +45,7 @@ modules:
       - libva-intel-driver
       - topgrade
     
-    remove:     
+    remove:
       - firefox
       - firefox-langpacks
       - ffmpeg-free
