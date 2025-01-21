@@ -23,6 +23,11 @@ modules:
       - https://copr.fedorainfracloud.org/coprs/lilay/topgrade/repo/fedora-%OS_VERSION%/lilay-topgrade-fedora-%OS_VERSION%.repo
       
     install:
+    rpm-ostree install \
+      - https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
+      - https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+      - rpmfusion-free-release
+      - rpmfusion-nonfree-release
       - distrobox
       - ffmpegthumbnailer
       - openssl
@@ -68,6 +73,8 @@ modules:
       - gnome-shell-extension-places-menu
       - gnome-shell-extension-window-list
       - gnome-shell-extension-background-logo
+      - rpmfusion-free-release
+      - rpmfusion-nonfree-release
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
