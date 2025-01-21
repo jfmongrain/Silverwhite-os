@@ -26,7 +26,7 @@ modules:
       - langpacks-core-fr
       - langpacks-fr
       - steam-devices
-      - topgrade
+      #- topgrade
       - gnome-software-rpm-ostree
     remove:
       # example: removing firefox (in favor of the flatpak)
