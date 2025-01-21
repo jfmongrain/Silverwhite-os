@@ -20,6 +20,7 @@ modules:
   - type: rpm-ostree
     repos:
       - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
+      - https://copr.fedorainfracloud.org/coprs/lilay/topgrade/repo/fedora-%OS_VERSION%/lilay-topgrade-fedora-%OS_VERSION%.repo
       
     install:
       - distrobox
@@ -38,6 +39,7 @@ modules:
       - steam-devices
       - intel-media-driver
       - libva-intel-driver
+      - topgrade
     
     remove:
      
