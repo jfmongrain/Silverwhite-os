@@ -51,7 +51,7 @@ modules:
       - google-noto-sans-javanese-fonts
       - google-noto-sans-sundanese-fonts
       - just
-      - gnome-tweaks
+     # - gnome-tweaks
       
   #- type: default-flatpaks
   #  notify: true # Send notification after install/uninstall is finished (true/false)
