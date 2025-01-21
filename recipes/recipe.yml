@@ -18,8 +18,8 @@ modules:
         destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
 
   - type: rpm-ostree
-    repos:
-     # - https://copr.fedorainfracloud.org/coprs/lilay/topgrade/repo/fedora-%OS_VERSION%/lilay-topgrade-fedora-%OS_VERSION%.repo
+    #repos:
+    # - https://copr.fedorainfracloud.org/coprs/lilay/topgrade/repo/fedora-%OS_VERSION%/lilay-topgrade-fedora-%OS_VERSION%.repo
     install:
       - distrobox
       - fastfetch
@@ -28,7 +28,6 @@ modules:
       - steam-devices
       - topgrade
       - gnome-software-rpm-ostree
-      
     remove:
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency
@@ -50,8 +49,8 @@ modules:
       - google-noto-sans-cjk-fonts
       - google-noto-sans-javanese-fonts
       - google-noto-sans-sundanese-fonts
-      - just
-     # - gnome-tweaks
+      - just 
+      - gnome-tweaks
       
   #- type: default-flatpaks
   #  notify: true # Send notification after install/uninstall is finished (true/false)
