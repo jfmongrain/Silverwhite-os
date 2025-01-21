@@ -1,13 +1,13 @@
 ---
 # yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
 # image will be published to ghcr.io/<user>/<name>
-name: Silverwhite-os
+name: Silverwhite
 # description will be included in the image's metadata
 description: This is my personal OS image.
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/ublue-os/silverblue-main
-image-version: 41 # latest is also supported if you want new updates ASAP
+base-image: quay.io/fedora/fedora-silverblue
+image-version: latest # latest is also supported if you want new updates ASAP
 
 # module configuration, executed in order
 # you can include multiple instances of the same module
@@ -20,6 +20,7 @@ modules:
   - type: rpm-ostree
     repos:
       - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
+      
     install:
       - distrobox
       - ffmpegthumbnailer
@@ -28,11 +29,43 @@ modules:
       - gnome-epub-thumbnailer
       - langpacks-core-fr
       - langpacks-fr
+      - ffmpeg
+		  - gstreamer1-plugin-libav
+		  - gstreamer1-plugins-bad-free-extras
+		  - gstreamer1-plugins-bad-freeworld
+		  - gstreamer1-plugins-ugly
+		  - gstreamer1-vaapi
+      - steam-devices
+      - intel-media-driver
+      - libva-intel-driver
+    
     remove:
-      # example: removing firefox (in favor of the flatpak)
-      # "firefox" is the main package, "firefox-langpacks" is a dependency
+     
       - firefox
-      - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
+      - firefox-langpacks
+      - ffmpeg-free
+		  - libavcodec-free
+		  - libavdevice-free
+		  - libavfilter-free
+		  - libavformat-free
+		  - libavutil-free
+		  - libpostproc-free
+		  - libswresample-free
+		  - libswscale-free
+      - toolbox
+      - ibus-hangul
+      - ibus-libpinyin
+      - ibus-anthy
+      - ibus-anthy-python
+      - ibus-m17n
+      - gnome-tour
+      - yelp
+      - gnome-classic-session
+      - gnome-shell-extension-apps-menu
+      - gnome-shell-extension-launch-new-instance
+      - gnome-shell-extension-places-menu
+      - gnome-shell-extension-window-list
+      - gnome-shell-extension-background-logo
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
@@ -41,7 +74,7 @@ modules:
       install:
         
       remove:
-        - org.gnome.eog
+        - $(flatpak --system list --app-runtime=org.fedoraproject.Platform --columns=application | tail -n +1)
     user: {} # Also add Flathub user repo, but no user packages
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
