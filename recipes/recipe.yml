@@ -56,7 +56,7 @@ modules:
       - android-udev-rules
       - nvtop
       - htop
-      - openrgp-udev-rules
+      - openrgb-udev-rules
       - oversteer-udev
       - solaar-udev
       
