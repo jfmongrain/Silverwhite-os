@@ -53,7 +53,7 @@ modules:
       - google-noto-sans-sundanese-fonts
       #- just 
       #- gnome-tweaks
-      - android-udev-rules
+      #- android-udev-rules
       - nvtop
       - htop
       #- openrgb-udev-rules
@@ -61,7 +61,7 @@ modules:
       #- fxload-2008
       #- mesa-libxatracker
       #- mesa-va-drivers
-      # - ublue-os-akmods-addons
+      #- ublue-os-akmods-addons
       - ublue-os-udev-rules
       
   #- type: default-flatpaks
