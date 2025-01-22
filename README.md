@@ -1,8 +1,25 @@
 # Silverwhite-os &nbsp; [![bluebuild build badge](https://github.com/jfmongrain/silverwhite-os/actions/workflows/build.yml/badge.svg)](https://github.com/jfmongrain/silverwhite-os/actions/workflows/build.yml)
 
-See the [BlueBuild docs](https://blue-build.org/how-to/setup/) for quick setup instructions for setting up your own repository based on this template.
+*Use at your own risk - experimental project*
 
-After setup, it is recommended you update this README to describe your custom image.
+Silverwhite 
+===============
+- Silverwhite is minimal install of Gnome, a blank page upon which you install the apps and extensions you want.  Based on Fedora Silverblue.
+- The intended usage is as a boring desktop for the average person.  It is not a powertool for devs (check out Bluefin), nor a hobby distribution you can tweak for hours (but you can run Arch in a distrobox, by the way).
+- Includes RPM Fusion codecs, some thumnailers, openssl, and french and english localisation.
+- All apps that can be removed are removed.
+  - No browser, no office suite, no text editor, no mail client, no extensions, no gnome-classic session, no theming.
+  - You get the Gnome Software app, a terminal, a file manager, a disk manager and a system monitor, and you install everything else by yourself from Flathub.
+  - Repos other than Flathub are removed by default.
+  - Layering is disabled.
+  - No Nvidia proprietary driver support.
+  - Good old bash shell without any bling.  You get Fastfetch, but that's about it.
+- Distrobox is included for other software needs.
+- Updates are scheduled and done in the background.  This image updates twice a day.
+
+*This was created for personnal use so I do not have to use rpm-ostree to layer or remove packages.  It is not intended to be used by other people.  You have been warned.*
+
+See the [BlueBuild docs](https://blue-build.org/how-to/setup/) for quick setup instructions for setting up your own repository based on this template.
 
 ## Installation
 
@@ -27,12 +44,6 @@ To rebase an existing atomic Fedora installation to the latest build:
   ```
   systemctl reboot
   ```
-
-The `latest` tag will automatically point to the latest build. That build will still always use the Fedora version specified in `recipe.yml`, so you won't get accidentally updated to the next major version.
-
-## ISO
-
-If build on Fedora Atomic, you can generate an offline ISO with the instructions available [here](https://blue-build.org/learn/universal-blue/#fresh-install-from-an-iso). These ISOs cannot unfortunately be distributed on GitHub for free due to large sizes, so for public projects something else has to be used for hosting.
 
 ## Verification
 
