@@ -56,9 +56,12 @@ modules:
       - android-udev-rules
       - nvtop
       - htop
-      - openrgb-udev-rules
-      - oversteer-udev
-      - solaar-udev
+      #- openrgb-udev-rules
+      #- oversteer-udev
+      #- fxload-2008
+      #- mesa-libxatracker
+      #- mesa-va-drivers
+      - ublue-os-akmods-addons
       
   #- type: default-flatpaks
   #  notify: true # Send notification after install/uninstall is finished (true/false)
