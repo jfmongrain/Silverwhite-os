@@ -52,7 +52,7 @@ modules:
       - google-noto-sans-javanese-fonts
       - google-noto-sans-sundanese-fonts
       #- just 
-      - gnome-tweaks
+      #- gnome-tweaks
       - android-udev-rules
       - nvtop
       - htop
@@ -61,7 +61,9 @@ modules:
       #- fxload-2008
       #- mesa-libxatracker
       #- mesa-va-drivers
-      - ublue-os-akmods-addons
+      # - ublue-os-akmods-addons
+      - ublue-os-udev-rules-0.9-1.fc39.noarch
+      
       
   #- type: default-flatpaks
   #  notify: true # Send notification after install/uninstall is finished (true/false)
