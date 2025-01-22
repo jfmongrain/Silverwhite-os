@@ -31,6 +31,8 @@ modules:
     remove:
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency
+      - firefox
+      - firefox-langpacks
       - toolbox
       - ibus-hangul
       - ibus-libpinyin
@@ -51,6 +53,12 @@ modules:
       - google-noto-sans-sundanese-fonts
       #- just 
       - gnome-tweaks
+      - android-udev-rules
+      - nvtop
+      - htop
+      - openrgp-udev-rules
+      - oversteer-udev
+      - solaar-udev
       
   #- type: default-flatpaks
   #  notify: true # Send notification after install/uninstall is finished (true/false)
