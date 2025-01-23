@@ -27,13 +27,12 @@ modules:
       - langpacks-fr
       - steam-devices
       - topgrade
-      #- gnome-software-rpm-ostree
+      
     remove:
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency
       - firefox
       - firefox-langpacks
-      - toolbox
       - ibus-hangul
       - ibus-libpinyin
       - ibus-anthy
@@ -51,18 +50,9 @@ modules:
       - google-noto-sans-cjk-fonts
       - google-noto-sans-javanese-fonts
       - google-noto-sans-sundanese-fonts
-      #- just 
-      #- gnome-tweaks
-      #- android-udev-rules
       - nvtop
       - htop
-      #- openrgb-udev-rules
-      #- oversteer-udev
-      #- fxload-2008
-      #- mesa-libxatracker
-      #- mesa-va-drivers
-      #- ublue-os-akmods-addons
-      - ublue-os-udev-rules
+      - ublue-os-udev-rules #remove when main is updated.
       
   #- type: default-flatpaks
   #  notify: true # Send notification after install/uninstall is finished (true/false)
