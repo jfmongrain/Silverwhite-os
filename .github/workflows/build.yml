@@ -1,8 +1,7 @@
 name: bluebuild
 on:
   schedule:
-    - cron: "00 11 * * *"
-    - cron: "00 23 * * *"
+    - cron: "20 04 * * *"
   push:
     paths-ignore: # don't rebuild if only documentation has changed
       - "**.md"
