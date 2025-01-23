@@ -4,7 +4,7 @@
 
 Silverwhite 
 ===============
-- Silverwhite is minimal install of Gnome, a blank page upon which you install the apps and extensions you want.  Based on Ublue-main.
+- Silverwhite is minimal install of Gnome, a blank page upon which you install the apps and extensions you want.  Based on Ublue-main-latest(silverblue).
 - The intended usage is as a boring desktop for the average person.  It is not a powertool for devs (check out Bluefin), nor a hobby distribution you can tweak for hours (but you can run Arch in a distrobox, by the way).
 - Inherits codecs, thumnailers, openssl form Ublue, and adds french localisation.
 - All apps that can be removed are removed.
@@ -51,3 +51,5 @@ These images are signed with [Sigstore](https://www.sigstore.dev/)'s [cosign](ht
 ```bash
 cosign verify --key cosign.pub ghcr.io/jfmongrain/silverwhite-os
 ```
+
+https://github.com/ublue-os
