@@ -2,7 +2,7 @@
 
 Silverwhite 
 ===============
-This is a custom image based on Ublue-main, created for my personnal use so I do not have to use rpm-ostree to layer or remove packages. It is not intended to be used by other people. Seriously don't do it. You have been warned.
+This is a custom image based on Ublue-main, created for my personnal use so I do not have layer or remove packages. It is not intended to be used by other people. Seriously don't do it. You have been warned.
 
 See the [BlueBuild docs](https://blue-build.org/how-to/setup/) for quick setup instructions for setting up your own repository based on this template.
 
