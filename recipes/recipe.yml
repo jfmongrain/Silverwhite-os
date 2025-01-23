@@ -20,6 +20,7 @@ modules:
   - type: rpm-ostree
     repos:
       - https://copr.fedorainfracloud.org/coprs/lilay/topgrade/repo/fedora-%OS_VERSION%/lilay-topgrade-fedora-%OS_VERSION%.repo
+      - https://copr.fedorainfracloud.org/coprs/ilyaz/LACT/repo/fedora-%OS_VERSION%/ilyaz-LACT-fedora-%OS_VERSION%.repo
     install:
       - distrobox
       - fastfetch
@@ -27,6 +28,7 @@ modules:
       - langpacks-fr
       - steam-devices
       - topgrade
+      - lact-libadwaita
       
     remove:
       # example: removing firefox (in favor of the flatpak)
