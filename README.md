@@ -1,4 +1,4 @@
-# Silverwhite-os &nbsp; [![bluebuild build badge](https://github.com/jfmongrain/silverwhite-os/actions/workflows/build.yml/badge.svg)](https://github.com/jfmongrain/silverwhite-os/actions/workflows/build.yml)
+# Silverwhite &nbsp; [![bluebuild build badge](https://github.com/jfmongrain/silverwhite-os/actions/workflows/build.yml/badge.svg)](https://github.com/jfmongrain/silverwhite-os/actions/workflows/build.yml)
 
 *Use at your own risk - experimental project*
 
