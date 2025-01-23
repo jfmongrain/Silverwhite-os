@@ -21,7 +21,7 @@ modules:
     repos:
       - https://copr.fedorainfracloud.org/coprs/lilay/topgrade/repo/fedora-%OS_VERSION%/lilay-topgrade-fedora-%OS_VERSION%.repo
       - https://copr.fedorainfracloud.org/coprs/ilyaz/LACT/repo/fedora-%OS_VERSION%/ilyaz-LACT-fedora-%OS_VERSION%.repo
-      - https://mega.nz/linux/repo/Fedora_%OS_VERSION%/x86_64.repo
+      
     install:
       - distrobox
       - fastfetch
@@ -30,7 +30,6 @@ modules:
       - steam-devices
       - topgrade
       - lact-libadwaita
-      - megasync
       
     remove:
       # example: removing firefox (in favor of the flatpak)
