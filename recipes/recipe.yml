@@ -48,12 +48,17 @@ modules:
       - gnome-shell-extension-launch-new-instance
       - gnome-shell-extension-places-menu
       - gnome-shell-extension-window-list
+      - gnome-shell-extension-appindicator
+      - gnome-shell-extension-blur-my-shell
+      - gnome-shell-extension-caffeine
+      - gnome-shell-extension-dash-to-dock
+      - gnome-shell-extension-gsconnect
+      - gnome-shell-extension-logo-menu
+      - gnome-shell-extension-search-light
+      - gnome-shell-extension-tailscale-gnome-qs
+      - gnome-shell-extension-user-theme
       #- gnome-shell-extension-background-logo
-      #- google-noto-fonts
-      #- google-noto-sans-balinese-fonts
-      #- google-noto-sans-cjk-fonts
-      #- google-noto-sans-javanese-fonts
-      #- google-noto-sans-sundanese-fonts
+      - google-noto-fonts
       #- nvtop
       #- htop
       - ublue-os-udev-rules #remove when main is updated.
