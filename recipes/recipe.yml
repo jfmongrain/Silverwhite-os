@@ -49,7 +49,7 @@ modules:
       - gnome-shell-extension-places-menu
       - gnome-shell-extension-window-list
       - google-noto-sans-balinese-fonts
-      - google-noto-sans-cjk-fonts,
+      - google-noto-sans-cjk-fonts
       - google-noto-sans-javanese-fonts
       - google-noto-sans-sundanese-fonts
       - nvtop
