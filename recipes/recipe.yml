@@ -49,6 +49,7 @@ modules:
       - gnome-shell-extension-places-menu
       - gnome-shell-extension-window-list
       #- gnome-shell-extension-background-logo
+      - google-noto-fonts
       - google-noto-sans-balinese-fonts
       - google-noto-sans-cjk-fonts
       - google-noto-sans-javanese-fonts
