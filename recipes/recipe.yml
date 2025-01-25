@@ -34,8 +34,8 @@ modules:
     remove:
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency
-      #- firefox
-      #- firefox-langpacks
+      - firefox
+      - firefox-langpacks
       - ibus-hangul
       - ibus-libpinyin
       - ibus-anthy
@@ -48,7 +48,10 @@ modules:
       - gnome-shell-extension-launch-new-instance
       - gnome-shell-extension-places-menu
       - gnome-shell-extension-window-list
-      - google-noto-fonts
+      - google-noto-sans-balinese-fonts
+      - google-noto-sans-cjk-fonts,
+      - google-noto-sans-javanese-fonts
+      - google-noto-sans-sundanese-fonts
       - nvtop
       - htop
       - ublue-os-udev-rules #remove when main is updated.
