@@ -6,7 +6,7 @@ name: silverwhite-os
 description: This is my personal OS image.
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/ublue-os/bluefin
+base-image: ghcr.io/ublue-os/silverblue-main
 image-version: latest # latest is also supported if you want new updates ASAP
 
 # module configuration, executed in order
@@ -27,7 +27,7 @@ modules:
       - fastfetch
       - langpacks-core-fr
       - langpacks-fr
-      #- steam-devices
+      - steam-devices
       - topgrade
       - lact-libadwaita
       
@@ -48,19 +48,9 @@ modules:
       - gnome-shell-extension-launch-new-instance
       - gnome-shell-extension-places-menu
       - gnome-shell-extension-window-list
-      - gnome-shell-extension-appindicator
-      - gnome-shell-extension-blur-my-shell
-      - gnome-shell-extension-caffeine
-      - gnome-shell-extension-dash-to-dock
-      - gnome-shell-extension-gsconnect
-      - gnome-shell-extension-logo-menu
-      - gnome-shell-extension-search-light
-      - gnome-shell-extension-tailscale-gnome-qs
-      - gnome-shell-extension-user-theme
-      #- gnome-shell-extension-background-logo
       - google-noto-fonts
-      #- nvtop
-      #- htop
+      - nvtop
+      - htop
       - ublue-os-udev-rules #remove when main is updated.
       
   #- type: default-flatpaks
