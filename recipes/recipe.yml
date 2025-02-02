@@ -59,7 +59,6 @@ modules:
       - gnome-shell-extension-search-light
       - gnome-shell-extension-user-theme
       - gnome-shell-extension-tailscale
-      - gnome-shell-extension-user-theme
       - input-remapper
       #- google-noto-sans-balinese-fonts
       #- google-noto-sans-cjk-fonts
