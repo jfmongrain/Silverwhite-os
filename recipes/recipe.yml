@@ -44,7 +44,6 @@ modules:
       - gnome-shell-extension-logo-menu
       - gnome-shell-extension-launch-new-instance
       - gnome-shell-extension-places-menu
-      - gnome-shell-extension-gsconnect
       - gnome-shell-extension-appindicator
       - gnome-shell-extension-dash-to-dock
       - gnome-shell-extension-caffeine
