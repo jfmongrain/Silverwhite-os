@@ -48,13 +48,13 @@ modules:
       - gnome-shell-extension-search-light
       - gnome-shell-extension-user-theme
       - gnome-shell-theme-yaru
-      - yaru-sound-theme-24.04.2-2.20240419git24.04.2.0ubuntu1.fc41.noarch
-      - yaru-icon-theme-24.04.2-2.20240419git24.04.2.0ubuntu1.fc41.noarch
-      - yaru-gtksourceview-theme-24.04.2-2.20240419git24.04.2.0ubuntu1.fc41.noarch
-      - yaru-gtk4-theme-24.04.2-2.20240419git24.04.2.0ubuntu1.fc41.noarch
-      - yaru-gtk3-theme-24.04.2-2.20240419git24.04.2.0ubuntu1.fc41.noarch
-      - yaru-gtk2-theme-24.04.2-2.20240419git24.04.2.0ubuntu1.fc41.noarch
-      - yaru-theme-24.04.2-2.20240419git24.04.2.0ubuntu1.fc41.noarch
+      - yaru-sound-theme
+      - yaru-icon-theme
+      - yaru-gtksourceview-theme
+      - yaru-gtk4-theme
+      - yaru-gtk3-theme
+      - yaru-gtk2-theme
+      - yaru-theme
       - gnome-shell-extension-tailscale-gnome-qs
       - input-remapper
       - google-noto-fonts-all
