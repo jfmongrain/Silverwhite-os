@@ -21,16 +21,22 @@ modules:
     repos:
       - https://copr.fedorainfracloud.org/coprs/lilay/topgrade/repo/fedora-%OS_VERSION%/lilay-topgrade-fedora-%OS_VERSION%.repo
       - https://copr.fedorainfracloud.org/coprs/ilyaz/LACT/repo/fedora-%OS_VERSION%/ilyaz-LACT-fedora-%OS_VERSION%.repo
-      #- https://copr.fedorainfracloud.org/coprs/ublue-os/staging/repo/fedora-%OS_VERSION%/ublue-os-staging-fedora-%OS_VERSION%.repo
+      - https://copr.fedorainfracloud.org/coprs/ublue-os/staging/repo/fedora-%OS_VERSION%/ublue-os-staging-fedora-%OS_VERSION%.repo
    
     install:
       - distrobox
-      - fastfetch
+      #- fastfetch
       - langpacks-core-fr
       - langpacks-fr
       - steam-devices
       - topgrade
       - lact-libadwaita
+      - nautilus-gsconnect
+      - nautilus-open-any-terminal
+      - nautilus-python
+      - bluefin-cli-logos
+      - bluefin-logos
+      - bluefin-fastfetch
       #- gnome-software
       
     remove:
@@ -57,6 +63,7 @@ modules:
       - google-noto-sans-sundanese-fonts
       - nvtop
       - htop
+      - fedora-logos
       #- ublue-os-udev-rules #remove when main is updated.
       
   #- type: default-flatpaks
