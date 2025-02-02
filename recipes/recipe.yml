@@ -60,10 +60,10 @@ modules:
       - gnome-shell-extension-user-theme
       - gnome-shell-extension-tailscale
       - input-remapper
-      #- google-noto-sans-balinese-fonts
-      #- google-noto-sans-cjk-fonts
-      #- google-noto-sans-javanese-fonts
-      #- google-noto-sans-sundanese-fonts
+      - google-noto-sans-balinese-fonts
+      - google-noto-sans-cjk-fonts
+      - google-noto-sans-javanese-fonts
+      - google-noto-sans-sundanese-fonts
       #- nvtop
       #- htop
       #- fedora-logos
