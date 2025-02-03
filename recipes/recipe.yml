@@ -39,6 +39,7 @@ modules:
       - solaar
       - input-leap
       - simple-scan
+      - gnome-system-monitor
       - gnome-classic-session
       - gnome-shell-extension-apps-menu
       - gnome-shell-extension-logo-menu
