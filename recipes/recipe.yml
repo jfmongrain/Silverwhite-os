@@ -65,9 +65,9 @@ modules:
       - default-fonts-cjk-serif
       - default-fonts-core-serif
       - default-fonts-as
-      #- default-font-te
-      #- default-font-dv
-      #- default-font-th
+      - default-fonts-te
+      - default-fonts-dv
+      - default-fonts-th
       - google-noto-sans-balinese-fonts
       - google-noto-sans-cjk-fonts
       - google-noto-sans-javanese-fonts
