@@ -62,6 +62,9 @@ modules:
       - gnome-shell-extension-tailscale-gnome-qs
       - input-remapper
       - google-noto-fonts-all
+      - default-fonts-cjk-serif
+      - default-fonts-core-serif
+      - default-fonts-as
       - google-noto-sans-balinese-fonts
       - google-noto-sans-cjk-fonts
       - google-noto-sans-javanese-fonts
@@ -76,6 +79,7 @@ modules:
       - google-noto-naskh-arabic-vf-fonts
       - google-noto-sans-arabic-vf-fonts
       - google-noto-sans-armenian-vf-fonts
+      - google-noto-sans-bengali-vf-fonts
       - google-noto-sans-canadian-aboriginal-vf-fonts
       - google-noto-sans-cherokee-vf-fonts
       - google-noto-sans-ethiopic-vf-fonts
