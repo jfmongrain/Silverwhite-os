@@ -74,7 +74,6 @@ modules:
       - google-noto-sans-devanagari-vf-fonts
       - google-noto-sans-mono-vf-fonts
       - google-noto-serif-vf-fonts
-      - google-noto-sans-bengali-vf-fonts
       - google-noto-sans-hebrew-vf-fonts
       - google-noto-naskh-arabic-vf-fonts
       - google-noto-sans-arabic-vf-fonts
