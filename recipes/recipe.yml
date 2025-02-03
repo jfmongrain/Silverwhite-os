@@ -72,7 +72,6 @@ modules:
       - default-fonts-si
       - default-fonts-ta
       - default-fonts-sat
-      - default-fonts-or
       - default-fonts-cjk-mono
       - default-fonts-mni
       - default-fonts-core-math
