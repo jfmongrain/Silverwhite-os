@@ -2,7 +2,7 @@
 
 Silverwhite 
 ===============
-This is a custom image based on Ublue-main, created for my personnal use so I do not have layer or remove packages. It is not intended to be used by other people. 
+This is a custom image based on Bluefin-latest, created for my personnal use so I do not have layer or remove packages. It is not intended to be used by other people. 
 
 Seriously don't do it. You have been warned.
 
