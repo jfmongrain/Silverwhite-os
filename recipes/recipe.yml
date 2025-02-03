@@ -93,6 +93,7 @@ modules:
       - default-fonts-he
       - default-fonts-zu
       - default-fonts-ast
+      - default-fonts-hi
       - default-fonts-other-serif
       - default-fonts-other-sans
       - default-fonts-core-emoji
