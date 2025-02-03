@@ -62,18 +62,18 @@ modules:
       - gnome-shell-extension-tailscale-gnome-qs
       - input-remapper
       - google-noto-fonts-all
-      - default-fonts-cjk-serif
-      - default-fonts-core-serif
-      - default-fonts-as
+      #- default-fonts-cjk-serif
+      #- default-fonts-core-serif
+      #- default-fonts-as
       - google-noto-sans-balinese-fonts
       - google-noto-sans-cjk-fonts
       - google-noto-sans-javanese-fonts
       - google-noto-sans-sundanese-fonts
       - google-noto-fonts-common
-      - google-noto-sans-vf-fonts
+      #- google-noto-sans-vf-fonts
       - google-noto-sans-devanagari-vf-fonts
-      - google-noto-sans-mono-vf-fonts
-      - google-noto-serif-vf-fonts
+      #- google-noto-sans-mono-vf-fonts
+      #- google-noto-serif-vf-fonts
       - google-noto-sans-hebrew-vf-fonts
       - google-noto-naskh-arabic-vf-fonts
       - google-noto-sans-arabic-vf-fonts
@@ -154,7 +154,7 @@ modules:
       - google-noto-serif-gujarati-fonts
       - google-noto-serif-grantha-fonts
       - google-noto-serif-georgian-fonts
-      - google-noto-serif-fonts
+      #- google-noto-serif-fonts
       - google-noto-serif-ethiopic-fonts
       - google-noto-serif-dogra-fonts
       - google-noto-serif-dives-akuru-fonts
@@ -260,7 +260,7 @@ modules:
       - google-noto-sans-myanmar-fonts
       - google-noto-sans-multani-fonts
       - google-noto-sans-mro-fonts
-      - google-noto-sans-mono-fonts
+      #- google-noto-sans-mono-fonts
       - google-noto-sans-mongolian-fonts
       - google-noto-sans-modi-fonts
       - google-noto-sans-miao-fonts
@@ -322,7 +322,7 @@ modules:
       - google-noto-sans-gothic-fonts
       - google-noto-sans-glagolitic-fonts
       - google-noto-sans-georgian-fonts
-      - google-noto-sans-fonts
+      #- google-noto-sans-fonts
       - google-noto-sans-ethiopic-fonts
       - google-noto-sans-elymaic-fonts
       - google-noto-sans-elbasan-fonts
