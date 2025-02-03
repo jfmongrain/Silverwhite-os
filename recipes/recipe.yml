@@ -87,8 +87,12 @@ modules:
       - default-fonts-chr
       - default-fonts-iu
       - default-fonts-bn
+      - default-fonts-mai
       - default-fonts-hy
       - default-fonts-ar
+      - default-fonts-he
+      - default-fonts-zu
+      - default-fonts-ast
       - default-fonts-other-serif
       - default-fonts-other-sans
       - default-fonts-core-emoji
@@ -96,11 +100,11 @@ modules:
       - google-noto-sans-cjk-fonts
       - google-noto-sans-javanese-fonts
       - google-noto-sans-sundanese-fonts
-      - google-noto-fonts-common
-      - google-noto-sans-vf-fonts
+      #- google-noto-fonts-common
+      #- google-noto-sans-vf-fonts
       - google-noto-sans-devanagari-vf-fonts
-      - google-noto-sans-mono-vf-fonts
-      - google-noto-serif-vf-fonts
+      #- google-noto-sans-mono-vf-fonts
+      #- google-noto-serif-vf-fonts
       - google-noto-sans-hebrew-vf-fonts
       - google-noto-naskh-arabic-vf-fonts
       - google-noto-sans-arabic-vf-fonts
