@@ -20,6 +20,7 @@ modules:
   - type: rpm-ostree
     repos:
       - https://copr.fedorainfracloud.org/coprs/ilyaz/LACT/repo/fedora-%OS_VERSION%/ilyaz-LACT-fedora-%OS_VERSION%.repo
+      - https://mega.nz/linux/repo/Fedora_%OS_VERSION%.repo
       #- https://copr.fedorainfracloud.org/coprs/ryanabx/cosmic-epoch/repo/fedora-%OS_VERSION%/ryanabx-cosmic-epoch-fedora-%OS_VERSION%.repo
       
     install:
@@ -54,6 +55,7 @@ modules:
       - gnome-shell-extension-blur-my-shell
       - gnome-shell-extension-search-light
       - gnome-shell-extension-user-theme
+      - gnome-shell-extension-gsconnect
       - gnome-shell-theme-yaru
       - yaru-sound-theme
       - yaru-icon-theme
