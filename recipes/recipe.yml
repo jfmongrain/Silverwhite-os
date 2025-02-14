@@ -27,6 +27,7 @@ modules:
       - langpacks-core-fr
       - langpacks-fr
       - lact-libadwaita
+      - megasync
       #- cosmic-desktop
      
     remove:
